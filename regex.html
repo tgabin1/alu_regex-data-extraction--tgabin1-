@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+    <h2 class="display-5">Validation Form</h2>
+    <form id="sampleForm">
+      <div class="mb-3">
+        <label class="form-label" for="email">Email</label>
+        <input id="email" type="email" class="form-control" placeholder="name@example.com" required>
+      </div>
+      <div class="mb-3">
+        <label class="form-label" for="website">Website URL</label>
+        <input id="website" type="url" class="form-control" placeholder="https://www.example.com" required>
+      </div>
+      <div class="mb-3">
+        <label class="form-label" for="phone">Phone Number</label>
+        <input id="phone" type="tel" class="form-control" placeholder="(123) 456-7890" required>
+      </div>
+      <div class="mb-3">
+        <label class="form-label" for="creditcard">Credit Card</label>
+        <input id="creditcard" type="text" class="form-control" placeholder="1234 5678 9012 3456" required>
+      </div>
+      <div class="mb-3">
+        <label class="form-label" for="time">Time</label>
+        <input id="time" type="time" class="form-control" title="Enter time in HH:MM format" required>
+      </div>
+      <div class="mb-3">
+        <label class="form-label" for="htmltags">HTML Tags</label>
+        <input id="htmltags" type="text" class="form-control" placeholder="<p>, <div>" required>
+      </div>
+      <div class="mb-3">
+        <label class="form-label" for="hashtag">Hashtag</label>
+        <input id="hashtag" type="text" class="form-control" placeholder="#example" required>
+      </div>
+      <div class="mb-3">
+        <label class="form-label" for="currency">Currency</label>
+        <input id="currency" type="text" class="form-control" placeholder="$19.99" required>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+
+<script src="hello/script.js"></script>
+</body>
+</html>
